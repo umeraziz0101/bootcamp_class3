@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
     return (
         <div className="App">
-            <h1 className="">Top three students of CNC class</h1>
+            <h1 style={{ fontSize: 35, color: "#135497" }}>Top three students of CNC class</h1>
             <hr width="350" />
             <br />
             <Student id="3658" name="Umer Aziz" email="umeraziz0101@gmail.com" city="Dera Ghazi Khan" />
