@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Student from "./student";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <h1 className="">Top three students of CNC class</h1>
+            <hr width="350" />
+            <br />
+            <Student id="3658" name="Umer Aziz" email="umeraziz0101@gmail.com" city="Dera Ghazi Khan" />
+            <hr width="200" />
+            <Student id="954" name="Iftikhar Ali" email="iffi@gmail.com" city="Karachi" />
+            <hr width="200" />
+            <Student id="468" name="Dilawer Shah" email="shahg@gmail.com" city="Lahore" />
+        </div>
+    );
 }
 
 export default App;
